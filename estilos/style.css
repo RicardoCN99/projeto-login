@@ -1,20 +1,22 @@
 @charset "UTF-8";
 
+/* Mobile first */
+
+@media all {
+
 html{
-    background-image: linear-gradient(to bottom, rgb(173, 235, 173), rgb(223, 134, 223));
+    background-color: rgb(199, 124, 199);
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
-}
-
-html{
-    position: relative;
+    box-sizing: border-box;
 }
 
 section{
@@ -22,27 +24,72 @@ section{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    border: 3px solid black;
+    border-radius: 20px;
+    display: block;
+    width: 300px;
 }
 
 
 #imagem{
     background: purple url(../imagens/palete\ de\ cores.jpg) no-repeat center center;
     background-size: cover;
+    height: 250px;
 }
 
 #imagem,#login{
-    width: 400px;
-    height: 300px;
-    display: inline-block;
-    border: 2px solid black;
-   
+    display:block;  
 }
+
 
 #login{
     vertical-align: top;
     text-align: center;
+    padding-top: 10px ;
+    background-color: white;
+    height: 350px;
 }
 
 #login > h1{
     font-size: 25px ;
+}
+
+#login > p{
+    padding-top: 15px;
+    text-align: justify;
+    margin: 0px 6px 0px 6px;
+    font-size: 13px;
+}
+
+form{
+    margin-top: 10px;
+}
+
+form > p{
+    background-color: rgb(243, 102, 243);
+    margin: 4px 7px 0px 7px ;
+    border-radius: 7px;
+}
+
+label{
+    color: white;
+}
+
+input.botao{
+    margin-top: 6px;
+    width: 280px;
+    height: 25px;
+    border-radius: 7px;
+}
+
+input#botao1{
+    background-color: rgb(140, 184, 140);
+    color: white;
+}
+
+input#botao2{
+    border:1px solid rgb(140, 184, 140);
+    color: rgb(140, 184, 140);
+}
+
 }
