@@ -16,17 +16,19 @@
         </div>
 
         <div id="login">
+
             <h1>Login</h1>
             <p>Seja bem vindo(a), faça login para aceder á sua conta e dar inicio ás suas configurações!!</p>
-            <form action="login.php" method="post">
-                <p><label for="mail"class="material-icons">mail</label>
-                <input type="email" name="mail" id="mail"></p>
 
-                <p><label for="senha" class="material-icons">key</label>
-                <input type="password" name="senha" id="senha"></p>
+            <form action="login.php" method="post">
+                <p class="inputsp"><label for="mail"><i class="material-icons">mail</i></label>
+                <input class="inptexto" type="email" name="mail" id="mail" placeholder="seu email" required size="30"></p>
+
+                <p class="inputsp"><label for="senha"><i class="material-icons">key</i></label>
+                <input class="inptexto" type="password" name="senha" id="senha" placeholder="sua senha" required size="30"></p>
 
                 <input id="botao1" class="botao" type="submit" value="Entrar"><br>
-                <input id="botao2" class="botao" type="button" value="Esqueci a senha">
+                <a id="botao2" href="##">Esqueci a senha <i id="iconpequeno" class="material-icons">mail</i></a>
 
             </form>
         </div>

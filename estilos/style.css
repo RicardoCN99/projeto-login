@@ -24,7 +24,6 @@ section{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    border: 3px solid black;
     border-radius: 20px;
     display: block;
     width: 300px;
@@ -35,6 +34,7 @@ section{
     background: purple url(../imagens/palete\ de\ cores.jpg) no-repeat center center;
     background-size: cover;
     height: 250px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 #imagem,#login{
@@ -43,11 +43,11 @@ section{
 
 
 #login{
-    vertical-align: top;
     text-align: center;
     padding-top: 10px ;
     background-color: white;
     height: 350px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 #login > h1{
@@ -66,30 +66,63 @@ form{
 }
 
 form > p{
-    background-color: rgb(243, 102, 243);
-    margin: 4px 7px 0px 7px ;
-    border-radius: 7px;
+    background-color: rgb(158, 2, 158);
+    margin: 6px 7px;
+    border-radius: 7px; 
+    height: 40px;
 }
 
-label{
-    color: white;
+i{
+    color: grey;
+    transform: translatey(8px);
 }
 
-input.botao{
-    margin-top: 6px;
-    width: 280px;
-    height: 25px;
+input,a#botao2{
+   height: 35px;
+   border-radius: 7px;
+   border: 0px;
+}
+
+input.botao,a#botao2{
+    width: 286px;
     border-radius: 7px;
+    font-size: 20px;
 }
 
 input#botao1{
-    background-color: rgb(140, 184, 140);
+    background-color: rgb(10, 156, 10);
     color: white;
+    border: 0px;
+    height: 40px;
+    margin: 0px 7px 6px 7px;
 }
 
-input#botao2{
-    border:1px solid rgb(140, 184, 140);
-    color: rgb(140, 184, 140);
+a#botao2{
+    border:1px solid rgb(140, 150, 140);
+    color: rgb(75, 128, 75);
+    height: 40px;
+    text-decoration: none;
+    display: block;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-top: 7px;
 }
+
+i#iconpequeno{
+    font-size: 15px;
+    transform: translatey(-6px);
+}
+
+input#botao1:hover{
+    background-color: rgb(4, 95, 4);
+    cursor: pointer;
+}
+
+a#botao2:hover{
+    background-color: rgb(203, 206, 203);
+    cursor: pointer;
+    color: rgb(29, 141, 29);
+}
+
 
 }
