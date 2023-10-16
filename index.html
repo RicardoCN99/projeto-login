@@ -21,13 +21,13 @@
             <p>Seja bem vindo(a), faça login para aceder á sua conta e dar inicio ás suas configurações!!</p>
 
             <form action="login.php" method="post">
-                <p class="inputsp"><label for="mail"><i class="material-icons">mail</i></label>
-                <input class="inptexto" type="email" name="mail" id="mail" placeholder="seu email" required size="30"></p>
+                <p><label for="mail"><i class="material-icons">mail</i></label>
+                <input class="inputs" type="email" name="mail" id="mail" placeholder="seu email" required ></p>
 
-                <p class="inputsp"><label for="senha"><i class="material-icons">key</i></label>
-                <input class="inptexto" type="password" name="senha" id="senha" placeholder="sua senha" required size="30"></p>
+                <p><label for="senha"><i class="material-icons">key</i></label>
+                <input class="inputs" type="password" name="senha" id="senha" placeholder="sua senha" required minlength="9"></p>
 
-                <input id="botao1" class="botao" type="submit" value="Entrar"><br>
+                <input id="botao1" type="submit" value="Entrar"><br>
                 <a id="botao2" href="##">Esqueci a senha <i id="iconpequeno" class="material-icons">mail</i></a>
 
             </form>
