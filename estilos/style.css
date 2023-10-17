@@ -41,9 +41,6 @@ section{
     display:block;  
 }
 
-.inputs{
-    width: 85%;
-}
 
 #login{
     text-align: center;
@@ -73,6 +70,10 @@ form > p{
     margin: 6px 7px;
     border-radius: 7px; 
     height: 40px;
+}
+
+.inputs{
+    width: 85%;
 }
 
 i{
