@@ -24,6 +24,7 @@ section{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    overflow: hidden;
     border-radius: 20px;
     display: block;
     width: 300px;
@@ -34,7 +35,6 @@ section{
     background: purple url(../imagens/palete\ de\ cores.jpg) no-repeat center center;
     background-size: cover;
     height: 250px;
-    border-radius: 20px 20px 0px 0px;
 }
 
 #imagem,#login{
@@ -50,7 +50,7 @@ section{
     padding-top: 10px ;
     background-color: white;
     height: 350px;
-    border-radius: 0px 0px 20px 20px;
+
 }
 
 #login > h1{
@@ -163,17 +163,6 @@ section{
         height: 100%;
         float: left;
     }
-
-        
-    #imagem{
-        border-radius: 20px 0px 0px 20px;
-    }
-
-
-    #login{
-        border-radius: 0px 20px 20px 0px;
-    }
-
 }
 
 
@@ -205,17 +194,6 @@ section{
         height: 100%;
         float: right;
     }
-
-    
-    #imagem{
-        border-radius: 0px 20px 20px 0px;
-    }
-
-
-    #login{
-        border-radius: 20px 0px 0px 20px;
-    }
-
 }
 
 
