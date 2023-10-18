@@ -46,7 +46,7 @@ section{
     text-align: center;
     padding-top: 10px ;
     background-color: white;
-    height: 350px;
+    height: 300px;
 
 }
 
@@ -180,14 +180,14 @@ section{
     }
     section{
         width: 1000px;
-        height: 400px;
+        height: 300px;
     }
 
     #login{
         width: 60%;
         height: 100%;
         float: right;
-        padding-top: 80px;
+
     }
 
     #imagem{
