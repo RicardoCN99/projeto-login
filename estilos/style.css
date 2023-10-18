@@ -87,13 +87,13 @@ input,a#botao2{
    border: 0px;
 }
 
-input#botao1,a#botao2{
+input[type=submit],a#botao2{
     width: 97%;
     border-radius: 7px;
     font-size: 20px;
 }
 
-input#botao1{
+input[type=submit]{
     background-color: rgb(10, 156, 10);
     color: white;
     border: 0px;
@@ -116,7 +116,7 @@ i#iconpequeno{
     transform: translatey(-6px);
 }
 
-input#botao1:hover{
+input[type=submit]:hover{
     background-color: rgb(4, 95, 4);
     cursor: pointer;
 }
