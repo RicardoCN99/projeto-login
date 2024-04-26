@@ -23,11 +23,11 @@ section{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
     overflow: hidden;
     border-radius: 20px;
     display: block;
     width: 300px;
+    transform: translate(-50%,-50%);
 }
 
 
